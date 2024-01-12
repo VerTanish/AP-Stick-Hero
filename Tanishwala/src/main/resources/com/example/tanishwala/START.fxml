@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="600.0" maxWidth="340.0" minHeight="600.0" minWidth="340.0" prefHeight="600.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tanishwala.StartPageController">
+    <children>
+        <AnchorPane maxHeight="600.0" maxWidth="340.0" minHeight="600.0" minWidth="340.0" prefHeight="600.0" prefWidth="340.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b2433" height="600.0" stroke="#93b1a6" strokeType="INSIDE" strokeWidth="2.0" width="340.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5c8374" height="131.0" layoutX="119.0" layoutY="469.0" stroke="TRANSPARENT" strokeType="INSIDE" width="102.0" />
+        <Text layoutY="-13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="185.33673667907715" />
+        <Text fill="#225652" layoutX="12.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLATLANDS" textAlignment="CENTER" wrappingWidth="315.6358642578125">
+            <font>
+                <Font name="Consolas Bold" size="46.0" />
+            </font>
+        </Text>
+        <Circle fill="#93b1a6" layoutX="170.0" layoutY="300.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fill="#31564e" layoutX="210.0" layoutY="324.0" points="-49.999969482421875, -6.0, -19.600006103515625, -22.399993896484375, -49.99998474121094, -42.19999694824219" stroke="TRANSPARENT" strokeType="INSIDE" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9fd787" height="46.0" layoutX="146.0" layoutY="423.0" stroke="TRANSPARENT" strokeType="INSIDE" width="48.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7ffed" height="16.0" layoutX="182.0" layoutY="423.0" stroke="TRANSPARENT" strokeType="INSIDE" width="12.0" />
+        <AnchorPane prefHeight="600.0" prefWidth="340.0">
+            <children>
+                <Button layoutX="128.0" layoutY="258.0" mnemonicParsing="false" onAction="#switchtomaingame" opacity="0.0" prefHeight="84.0" prefWidth="84.0" text="PLAY" />
+                <Text fill="#93b1a6" layoutX="5.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;" wrappingWidth="22.88433837890625">
+                    <font>
+                        <Font name="System Bold" size="45.0" />
+                    </font>
+                </Text>
+                <Button layoutX="8.0" layoutY="1.0" mnemonicParsing="false" onAction="#switchtosavedstate" opacity="0.0" prefHeight="36.0" prefWidth="38.0" text="SS BUTTON" textFill="#93b1a6" />
+                <ImageView fitHeight="29.0" fitWidth="38.0" layoutX="301.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../volume%20button.png" />
+                    </image>
+                </ImageView>
+                <Button layoutX="296.0" layoutY="7.0" mnemonicParsing="false" onAction="#volumeswitch" opacity="0.0" prefHeight="36.0" prefWidth="38.0" text="volume" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
